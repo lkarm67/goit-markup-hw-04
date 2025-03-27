@@ -1,0 +1,345 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    transform: capitalize;
+}
+
+ul, ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none; 
+}
+
+/*---------------Common------------------*/
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+} 
+
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+}
+
+/*----------------Header-----------------*/
+.header-page{
+   border-bottom: 1px solid #e7e9fc; 
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.header-logo .logo-part{
+    color: #2e2f42;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.menu-nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu-nav-link{
+    display: block;
+    padding: 24px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-nav-list .menu-nav-link{
+    color: #2e2f42;
+}
+
+.menu-nav-list .menu-nav-link:hover,
+.menu-nav-list .menu-nav-link:focus{
+    color: #404bbf;
+}
+
+.address{
+   font-style: normal;
+   margin-left: auto;
+} 
+
+.address-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.address-link{
+    display: block;
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}    
+
+.address-list .address{
+    color: #434455   
+} 
+
+.address-link:hover,
+.address-link:focus{
+    color: #404bbf;
+}
+
+/*---------------Hero---------------------*/
+.hero-page{
+    background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.hero-page-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    max-width: 496px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+.hero-page-button{
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    font-style: italic;
+    background-color:#4d5ae5;
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
+}    
+
+button:hover, button:focus{
+    background-color: #404bbf;   
+}
+
+/*---------------Features-----------------*/
+
+.features-page{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.features-container{
+    display: flex;
+    align-items: center;
+} 
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.features-item{
+    width: calc((100% - 72px) /4);
+}
+
+.features-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.features-item-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*----------------Our Team------------------*/
+.team-page{
+    background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-page-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.team-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}   
+
+.team-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 0 4px 4px;
+    background: #fff;
+    width: calc((100% - 72px) / 4);
+}
+
+.team-text-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 232px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.team-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.team-descr{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+/*----------------Portfolio---------------*/
+.portfolio-page{
+    background-color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-page-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-item{
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-text-box{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.portfolio-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.portfolio-descr{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*-------------Footer--------------*/
+.footer-page{
+    background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;   
+}
+
+.footer-logo .logo-part{
+    color: #f4f4fd;
+}
+
+.footer-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+}
