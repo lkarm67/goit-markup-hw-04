@@ -80,12 +80,15 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #404bbf;
     transition: color 250ms 
     cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-nav-link.current{
     position: relative;
+    color: #404bbf;
+    
 }
 
 .menu-nav-link.current::after{
@@ -177,7 +180,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    font-style: italic;
     background-color:#4d5ae5;
     cursor: pointer;
     min-width: 169px;
@@ -189,7 +191,7 @@ img{
     250ms cubic-bezier(0.4, 0, 0.2, 1);
 }    
 
-button:hover, button:focus{
+.hero-page-button:hover, .hero-page-button:focus{
     background-color: #404bbf;   
 }
 
@@ -299,8 +301,7 @@ button:hover, button:focus{
     justify-content: center;
     flex-direction: column;
     width: 232px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin: 32px 16px;
 }
 
 .team-subtitle{
@@ -326,27 +327,46 @@ button:hover, button:focus{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 24px;
-    width: 232px;
+    
+    width: 100%;
     height: 40px;
 }
 
-.social-link {
+.social-links-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+}
+
+.instagram-icon-item {
     width: 40px;
     height: 40px;
+    background-color: #4d5ae5;
     border-radius: 50%;
-    background: #4d5ae5;
+    
 }
 
-.social-link .social-icon{
-    padding: 8px;
-    fill: #fff;
+.social-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 
+    250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link .social-icon:hover{
-    background-color: #31D0AA;
+.social-link:hover,
+.social-link:focus{
+    background-color: #404bbf;
 }
 
+.social-icon{
+    fill: #f4f4fd;
+}
 
 
 /*----------------Portfolio---------------*/
