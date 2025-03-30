@@ -54,10 +54,12 @@
     <main>
     <section class="hero-page">
       <div class="container">
-        <h1 class="hero-page-title">Effective Solutions
+        <div class="hero-wrapper">
+          <h1 class="hero-page-title">Effective Solutions
                 for Your Business</h1>
-        <button type="button" class="hero-page-button">
+          <button type="button" class="hero-page-button">
                   Order Service</button>
+        </div>                
       </div>            
     </section>
 
@@ -66,25 +68,56 @@
         <h2 class="features-title visually-hidden">Features</h2>
           <ul class="features-list">
             <li class="features-item">
-              <h3 class="features-subtitle">Strategy</h3>
+              <div class="features-icon-box">
+                <a target="_blank" class="link">
+                  <svg class="features-icon" width="64" height="64">
+                    <use href="./images/icons.svg#icon-antenna">
+                    </use>  
+                  </svg>
+                </a>
+              </div>
+                <h3 class="features-subtitle">Strategy</h3>
                 <p class="features-item-text">Our goal is to identify the business
 problem to walk away with the perfect and creative solution. 
                 </p>
             </li>
             <li class="features-item">
-              <h3 class="features-subtitle">Punctuality</h3>
+              <div class="features-icon-box">
+                <a target="_blank" class="link">
+                  <svg class="features-icon" width="64" height="64">
+                    <use href="./images/icons.svg#icon-clock">
+                    </use>  
+                  </svg>
+                </a>
+              </div>  
+                <h3 class="features-subtitle">Punctuality</h3>
                 <p class="features-item-text">Bring the key message to the brand's audience for the best price within the shortest possible time.
                 </p>
             </li>
             <li class="features-item">
-              <h3 class="features-subtitle">Diligence</h3>
+              <div class="features-icon-box">
+                <a target="_blank" class="link">
+                  <svg class="features-icon" width="64" height="64">
+                    <use href="./images/icons.svg#icon-diagram">
+                    </use>  
+                  </svg>
+                </a>
+              </div>  
+                <h3 class="features-subtitle">Diligence</h3>
                 <p class="features-item-text">Research and confirm brands with the strongest digital growth opportunities and minimize risk. 
                 </p>                          
             </li>
             <li class="features-item">
-              <h3 class="features-subtitle">Technologies</h3>
+              <div class="features-icon-box">
+                  <svg class="features-icon" width="64" height="64">
+                    <use href="./images/icons.svg#icon-astronaut">
+                    </use>  
+                  </svg>
+                </a>
+              </div>
+                <h3 class="features-subtitle">Technologies</h3>
                 <p class="features-item-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving. 
-              </p>                          
+                </p>                          
             </li>
           </ul>
       </div>    
@@ -99,6 +132,28 @@ problem to walk away with the perfect and creative solution.
                   <div class="team-text-box">
                     <h3 class="team-subtitle">Mark Guerrero</h3>
                     <p class="team-descr">Product Designer</p>
+                    <div class="team-links-box">
+                      <div class="social-link">
+                        <a target="_blank" class="link"></a>
+                          <svg class="social-icon" width="16" height="16">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </div>
+                    
+                        <a target="_blank" class="link">  
+                        <svg class="social-icon" width="16" height="16">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        <a target="_blank" class="link"></a>
+                        <svg class="social-icon" width="16" height="16">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        <a target="_blank" class="link"></a>
+                        <svg class="social-icon" width="16" height="16">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </li>
                 <li class="team-item">
@@ -131,11 +186,15 @@ problem to walk away with the perfect and creative solution.
         <h2 class="portfolio-page-title">Our Portfolio</h2>
         <ul class="portfolio-list">
             <li class="portfolio-item">
-              <img src="./images/portfolio-1.jpg" alt="Banking app's interface" width="360"/>
-              <div class="portfolio-text-box">
-                <h3 class="portfolio-subtitle">Banking App</h3>
-                <p class="portfolio-descr">App</p>
+              <div class="picture-wrapp">
+                <img src="./images/portfolio-1.jpg" alt="Banking app's interface" width="360"/>
               </div>
+                <p class="portfolio-hidden-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                  <div class="portfolio-text-box">
+                    <h3 class="portfolio-subtitle">Banking App</h3>
+                    <p class="portfolio-descr">App</p>
+                  </div>
+              
             </li>
             <li class="portfolio-item">
               <img src="./images/portfolio-2.jpg" alt="Payment by QR-code" width="360"/>
