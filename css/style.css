@@ -296,7 +296,7 @@ img{
     justify-content: center;
     flex-direction: column;
     width: 232px;
-    margin: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-subtitle{
